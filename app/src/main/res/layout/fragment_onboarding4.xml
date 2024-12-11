@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnboardingFragment3">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#CDC1FF">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/onboarding_screen_4"
+            android:layout_marginTop="-200dp">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/onboarding_screen_4_heading"
+            android:fontFamily="@font/sourgummy"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="370dp"
+            android:gravity="center">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/onboarding_screen_desc_4"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginTop="500dp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_right_24"
+            android:layout_marginTop="650dp"
+            android:layout_marginLeft="350dp">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/btn_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:text="Skip"
+            android:textStyle="bold"
+            android:textColor="#5e17eb"
+            android:layout_marginTop="750dp"
+            android:layout_marginStart="20dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_next"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textColor="#5e17eb"
+            android:textStyle="bold"
+            android:layout_marginTop="750dp"
+            android:layout_marginStart="300dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

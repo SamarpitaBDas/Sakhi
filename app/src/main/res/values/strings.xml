@@ -2,4 +2,22 @@
     <string name="app_name">Sakhi</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="heading_1">Welcome to the Sakhi Safe Application!</string>
+    <string name="heading_2">We are ready to assist you anytime, anywhere.</string>
+    <string name="heading_3">Sharing your location with someone you trust is a smart way to enhance safety, especially when walking alone.</string>
+    <string name="desc_one">An application that will enhance your security and safety in various situations.</string>
+    <string name="desc_two">Your safety and security are our priority.</string>
+    <string name="desc_three">We respect your privacy, and your location will only be shared with your consent.</string>
+    <string name="welcome">Welcome to the Sakhi!</string>
+    <string name="onboarding_screen_2_desc">An application that will enhance your security and safety in various situations.</string>
+    <string name="skip">Skip</string>
+    <string name="onboarding_heading_3">We are ready to assist you anytime, anywhere.</string>
+    <string name="onboarding_screen_desc_3">Your safety and security are our priority.</string>
+    <string name="onboarding_screen_4_heading">Sharing your location with someone you trust is a smart way to enhance safety, especially when walking alone.</string>
+    <string name="onboarding_screen_desc_4">We respect your privacy, and your location will only be shared with your consent.</string>
+    <string name="appname">Sakhi</string>
+    <string name="first_menu_desc">Providing solutions and assistance in situations that may threaten or make you feel unsafe, especially when walking alone in quiet places or at night.</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+
 </resources>
